@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SecureRide - Smart Anti-Theft Bike Lock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello Coursera!
+
+<header>
+    <nav>
+        <h2>SecureRide</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interest">Interest Form</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Smart Anti-Theft Bike Lock</h1>
+        <p>Protect Your Bike. Anytime. Anywhere.</p>
+        <a href="#interest" class="btn">Get Started</a>
+    </div>
+</section>
+
+<section id="features">
+    <h2>Key Features</h2>
+
+    <div class="feature-container">
+        <div class="card">
+            <h3>GPS Tracking</h3>
+            <p>Track your bike location in real-time through a mobile app.</p>
+        </div>
+
+        <div class="card">
+            <h3>Theft Alerts</h3>
+            <p>Receive instant notifications when suspicious activity is detected.</p>
+        </div>
+
+        <div class="card">
+            <h3>Remote Locking</h3>
+            <p>Lock or unlock your bike remotely using your smartphone.</p>
+        </div>
+
+        <div class="card">
+            <h3>Loud Alarm</h3>
+            <p>An alarm activates when someone tries to tamper with your bike.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About SecureRide</h2>
+    <p>
+        SecureRide is a smart anti-theft bike lock concept designed to reduce bike theft
+        through GPS tracking, theft alerts, remote control, and smart security technology.
+        This MVP is developed to validate customer interest and gather feedback from potential users.
+    </p>
+</section>
+
+<section id="interest">
+    <h2>Product Interest Form</h2>
+
+    <form id="interestForm">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <input type="text" id="bike" placeholder="Bike Type" required>
+
+        <select id="interestLevel">
+            <option value="">Interest Level</option>
+            <option>Very Interested</option>
+            <option>Interested</option>
+            <option>Maybe</option>
+            <option>Not Interested</option>
+        </select>
+
+        <textarea id="feedback" placeholder="Suggestions"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div id="message"></div>
+
+</section>
+
+<footer>
+    <p>© 2026 SecureRide | Smart Anti-Theft Bike Lock</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
